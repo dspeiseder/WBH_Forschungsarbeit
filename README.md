@@ -1,3 +1,9 @@
+# to start quarkus with postgres db:
+```shell script
+./start-dev.ps1
+```
+
+
 # code-with-quarkus
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
