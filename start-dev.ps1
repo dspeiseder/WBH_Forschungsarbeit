@@ -1,5 +1,8 @@
 $ErrorActionPreference = "Stop"
 
+# Bind to all interfaces so WSL can reach the dev server.
+$env:QUARKUS_HTTP_HOST = "0.0.0.0"
+
 # Start Postgres container in the background
 docker compose up -d
 
